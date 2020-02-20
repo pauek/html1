@@ -8,14 +8,14 @@
 
 <body>
   <main>
-    <h1>Ejemplos de tags de HTML</h1>
+    <h1 contenteditable="true">Ejemplos de tags de HTML</h1>
     <article>
-      <section>
+      <div contenteditable="true" class="section">
         <h3>Tags a nivel de texto</h3>
-        <p>El tag &lt;p&gt; es para
+        <p class="comentario pink">El tag &lt;p&gt; es para
           párrafos. Después de esta línea saltamos <br>
           Esto está en la siguiente línea. </p>
-        <p>
+        <p class="comentario">
           Voy a emfatizar <em>esta</em> palabra <br>
           Y <strong>esta</strong> la pongo "fuerte".<br>
           Y si pones una variable <code>count</code> en un programa...
@@ -23,7 +23,7 @@
 
         <p>
           Este texto está preformateado:
-          <pre>
+          <pre class="comentario">
 1;2;3;4
 a;b;c;d
      -------
@@ -35,7 +35,7 @@ a;b;c;d
         <p>
           Esto es un link a <a href="https://talent.upc.edu">UPC School</a>.
         </p>
-      </section>
+      </div>
 
       <!-- Sección sobre Listas-->
 
@@ -68,11 +68,11 @@ a;b;c;d
       </section>
 
       <section>
-        <h3>Tablas</h3>
+        <h3 title="Sección de tablas">Tablas</h3>
 
         <table>
           <tr>
-            <th>Número</th>
+            <th title="Este es el número">Número</th>
             <th>Letra</th>
           </tr>
           <tr>
